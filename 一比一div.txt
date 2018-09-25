@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <style>
+    .one{
+      border:1px solid;
+      padding-top:100%;
+    }
+  </style>
+</head>
+<body>
+<div class="one"><div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <link href="./duidie1.css">
+</head>
+<body>
+<div class="parent">
+  ■■■■■■■
+  <div class="child">
+    ■■■
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <style>
+    div{
+      border:1px solid red;
+     //显示单行文本，不换行
+      white-space:nowrap;
+      //溢出隐藏
+      overflow:hidden;
+      //隐藏的内容，用省略号代替
+      text-overflow:ellipsis;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    hhfjshfjkhafhasjhf前端初学者的联系hhfjshfjkhafhasjhf前端初学者的联hhfjshfjkhafhasjhf前端初学者的联
+  </div>
+</body>
+</html>

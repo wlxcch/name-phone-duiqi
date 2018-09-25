@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+    }
+    div{
+      border:1px solid red;
+/*       white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis; */
+         display: -webkit-box;
+       /*  -webkit-line-clamp: 4 这里的数字控制省略号在第几行显示 
+      -webkit这个前缀目前只有IE不支持，其他浏览器都支持*/
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical; 
+         width: 250px;
+      /* 省略号在第几行显示，剩下的文字隐藏 */
+         overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+<!--   <div>
+    hhfjshfjkhafhasjhf前端初学者的联系hhfjshfjkhafhasjhf前端初学者的联hhfjshfjkhafhasjhf前端初学者的联
+  </div> -->
+  <div class="module">
+  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+</div>
+</body>
+</html>

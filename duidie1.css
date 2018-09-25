@@ -1,0 +1,20 @@
+.parent{
+  width:200px;
+  height:200px;
+  border:10px solid rgba(255,0,0,0.5);
+  /* border的颜色半透明可以看出border在background上面 */
+  padding:15px;
+  margin:12px;
+  background:green;
+  /* text-indent:-23px; */
+ /*  让字体和border作对比， text-indent:-23px;调字体位置，可以看到文字你好在border之上 */
+  color:red;
+}
+.child{
+  height:20px;
+  background:purple;
+  margin-top:-19px;
+   /*  让字体和div.child作对比， margin-top:-10px;;调div位置，可以看到文字你好在div.child之上 */
+  color:black;
+/*   通过调margin-top的位置，使得parent里的文字和chlid里的文字有重合，可以看出，chlid里的文字在parent之上。 */
+}

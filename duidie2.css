@@ -1,0 +1,39 @@
+.parent{
+  width:200px;
+  height:200px;
+  border:10px solid rgba(255,0,0,0.5);
+  /* border的颜色半透明可以看出border在background上面 */
+  padding:15px;
+  margin:12px;
+  background:green;
+  color:red;
+  text-indent:-10px;
+ /*  调整文字的位置发现parent里的文字，在parent里的float属性div之上， */
+}
+.child{
+  height:20px;
+  color:black;
+  background:purple;
+}
+.float{
+  width:20px;
+  height:20px;
+  background:blue;
+  float:left;
+}
+.relative1{
+  width:100px;
+  height:100px;
+  background:black;
+  /* margin-top:-30px; */
+  position:relative; 
+  /* 加上position:relative;后div盖住蓝色float属性的div，默认蓝色div在上，现在变高 */
+  
+}
+.relative2{
+  width:100px;
+  height:100px;
+  background:grey;
+  margin-top:-80px;
+   position:relative; 
+}
