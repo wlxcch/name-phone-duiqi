@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>JS Bin</title>
-  <link href="./duidie2.css">
+  <link rel="stylesheet" type="text/css" href="./duidie2.css" />
 </head>
 <body>
 <div class="parent">

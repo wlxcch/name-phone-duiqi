@@ -1,0 +1,36 @@
+.parent{
+  width:200px;
+  height;200px;
+  border:10px solid red;
+  background:black;
+  margin:12px;
+  padding:15px;
+  
+}
+.relative{
+  width:100px;
+  height:100px;
+ 
+  background:grey;
+}
+
+.a1,.b1{
+  position:relative;
+  background:blue;
+}
+.a1{
+   z-index:1;
+}
+.b1{
+  background:purple;
+  margin-top:-90px;
+  z-index:0;
+}
+.a{
+  position:relative;
+  z-index:1;
+} 
+.b{
+  background:green;
+
+ }

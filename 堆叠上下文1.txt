@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <link rel="stylesheet" type="text/css" href="./堆叠上下文1.css" />
+</head>
+<body>
+  <div class="parent">
+        <div class="a relative">a
+          <div class="a1">a1</div>
+        </div>
+        <div class="b relative">b
+          <div class="b1">b1</div>
+        </div>
+  </div>
+  当没有给a和b改position的值时，b1比a1高；
+  .a1,.b1{
+  position:relative;}
+  可以控制z-index的值调整a1 b1的上下
+  
+  只有在给元素加定位后，再加z-index才管用。
+  默认a和b的级别是一样的但是b后出现所以可以盖住a；
+  a b都给加position:relative;z-index控制上下，
+  
+  当a的z-index值大于b的z-index值时，a在b之上，即使此时，b中子元素的z-index值大于a中子元素z-index的值，也是a中子元素的位置高。
+</body>
+</html>
